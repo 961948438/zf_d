@@ -1,0 +1,125 @@
+
+.map,#container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+.navbar-map{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+.bubble{
+  width: 50px;
+  height: 50px;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  background-color: rgba(12,181,106,0.9);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.8);
+  text-align: center;
+  cursor: pointer;
+}
+.bubble p{
+  margin: 3px;
+}
+.bubble .bubble_name{
+  padding: 2px 0 0px 0;
+  margin-top: 8px;
+}
+.label_rect{
+  height: 20px;
+  line-height: 19px;
+  width: 100px;
+  /* padding: 0 30px; */
+  position: absolute;
+  background-color: rgba(12,181,106,0.9);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.label_rect .arrow{
+  display: block;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border: 4px solid transparent;
+  border-top-width: 4px;
+  border-top-color: #00a75b;
+}
+.label_rect .label_rect_name{
+  display: inline-block;
+  width: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.label_rect .label_rect_count{
+  display: inline-block;
+  width: 20px;
+}
+.am-card-header-content img{
+  width: 160px;
+  /* height: 60px; */
+}
+.house_list_house_items_imgwrap img{
+  width: 160px;
+}
+.am-card-body{
+  display: flex;
+  flex-direction:row;
+}
+.house_list_card_body  .house_desc{
+  padding-left: 15px;
+  padding-right: 10px;
+  flex: 1;
+  /* width: 180px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+.house_list_card_body  .house_desc .house_desc_title{
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+}
+.house_desc_bodycontent{
+  display: block;
+  font-size: 12px;
+  color: rgb(112, 111, 111);
+  font-weight: 200;
+  padding-left: 0;
+  text-align: left;
+  margin-top: 15px;
+}
+.house_desc_brade{
+  margin-left: 0px;
+  font-size: 10px;
+}
+.am-card-footer-extra{
+  flex: 0.5;
+}
+.am-badge-text{
+  margin-left: 0;
+}
+.am-card-footer-content{
+  text-align: left
+}
+.house_list_item_price{
+  color: red;
+  font-weight: 600;
+}
+.am-card-footer{
+  padding-left: 0;
+}
+.popup-list{
+  overflow: scroll;
+  max-width: 400px;
+}

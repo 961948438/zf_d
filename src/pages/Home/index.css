@@ -1,0 +1,259 @@
+#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}
+
+.iconfont{
+  font-size:20px !important;
+}
+.am-tabs-bottom{
+  /* position:fixed; */
+  /* position: absolute; */
+  /* bottom:0;
+   */
+  /* display: flex;
+  flex-direction: column; */
+  /* position: relative; */
+}
+.am-tabs-tab-bar-wrap{
+  /* flex: 1; */
+  /* position:fixed; */
+  /* bottom:0; */
+}
+.am-tab-bar{
+  position: flex!important;
+  height: 50px;
+}
+.route-home{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home-content{
+  flex: 1;
+  overflow: scroll;
+}
+.my-list .spe .am-list-extra {
+  flex-basis: initial;
+}
+.space-carousel {
+  padding: 16px;
+  background: #DEF1E5;
+  overflow: hidden;
+}
+.flex-container {
+  margin: 0 15px;
+}
+.flex-container .inline {
+  width: 80px!important;
+  margin: 9px 9px 9px 0;
+}
+.flex-container .small {
+  height: 20px!important;
+  line-height: 20px!important;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+.placeholder {
+  width: 100%;
+}
+ .home-content .slider img {
+   height: 190px!important;
+ }
+.am-flexbox-justify-center{
+}
+.am-flexbox-justify-center .navimg{
+  height: 100%;
+  text-align: center;
+}
+.navimg img{
+  width: 48px;
+  height: 48px;
+}
+.navimg h3{
+  /* color: rgb(87, 71, 71); */
+  line-height: 0px!important;
+  background-color: #fff;
+  font-weight: 400;
+}
+.groups{
+  width: 100%;
+  height: 246px;
+  background-color: #eee;
+  padding-bottom: 10px;
+}
+.groups .title{
+  height: 30px;
+  /* background-color: red; */
+  margin: 0;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+.groups .title .more{
+  display: block;
+  float: right;
+  font-weight: 400;
+  font-size:10px
+}
+.grid_content{
+  padding: 0 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.grid_content .am-grid{
+  width: 100%;
+}
+.grid_content .am-grid .am-flexbox{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 6px;
+    background:none;
+}
+.grid_content .am-grid .am-flexbox div:first-child{
+  margin-right: 6px;
+}
+.grid_content .am-grid .am-flexbox .am-grid-item{
+
+}
+.am-grid-item-content {
+  padding: 0!important;
+}
+.grid_content img{
+  width: 60px;
+}
+.am-flexbox-item  {
+  background-color: #fff;
+}
+.am-grid-item-content  .desc  p{
+  font-weight: 500;
+}
+.am-grid-item-content  .desc  span{
+  display: block;
+  padding-left: 10px;
+  font-weight: 300;
+  color: black;
+  font-size: 10px;
+}
+.news .am-wingblank-lg  .news-item{
+  display: flex;
+  flex-direction: row;
+}
+.news .group-title{
+  background-color: #eee;
+  height:25px ;
+  margin:0;
+}
+.news .am-wingblank-lg  .news-item .imgwrap img{
+  height: 100px;
+}
+.news .am-wingblank-lg  .news-item .content{
+  padding-left: 15px;
+}
+.news .am-wingblank-lg  .news-item .content .title{
+
+  font-weight: 500;
+  font-size: 15px;
+  height: 20px;
+  margin-top: 10px;
+}
+.news .am-wingblank-lg  .news-item .content .info{
+  clear: both;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.news .am-wingblank-lg  .news-item .content .info span:first-child {
+  display: block;
+  float: left;
+}
+
+.am-search {
+  border-bottom: 1px solid #ddd;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+.search-box .location{
+  display: flex;
+  align-items: center;
+}
+.search-box .location .name{
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+  overflow:hidden;
+}
+.search-box .location i{
+  /* line-height: 60px; */
+}
+.search-box .search{
+  flex: 1;
+  margin-right: 15px;
+}
+.search-box .form{
+  width: 240px;
+
+}
+
+.search-box{
+  position: absolute;
+  top: 30px;
+  z-index: 999;
+  padding: 0 25px 0 23px;
+  max-width: 95%;
+}
+.img-box-home{
+  position: relative;
+}
+.search-box .form .am-search{
+  background-color: 1;
+  border-bottom: 0px solid #ddd;
+  height: 28px;
+
+  padding: 0;
+}
+.icon_map{
+  color: rgb(81, 156, 131);
+}
+
+/* 接下来是关于ListHome组件的样式 */
+.class_patin_houses{
+  
+}
+.pagination-container {
+  margin: 0 15px;
+}
+
+.custom-pagination-with-icon .am-pagination-wrap-btn-prev .am-button-inline{
+  padding-left: 0;
+  padding-right: 10px;
+}
+.custom-pagination-with-icon .am-pagination-wrap-btn-next .am-button-inline{
+  padding-left: 10px;
+  padding-right: 0;
+}
+.arrow-align {
+  display: flex;
+  align-items: center;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+
+/* ListHome组件样式结束 */

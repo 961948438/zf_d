@@ -1,0 +1,9 @@
+.fav_navbar{
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  top: 0;
+}
+.content{
+  padding-top: 45px;
+}
